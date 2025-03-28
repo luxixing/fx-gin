@@ -1,0 +1,38 @@
+# Git config
+.gitconfig
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+vendor/
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local 
+
+# SQLite database files
+*.db
+*.db-journal
+*.db-lock
+*.db-trace
+*.db-wal
