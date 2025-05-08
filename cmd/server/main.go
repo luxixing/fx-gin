@@ -25,7 +25,7 @@ import (
 )
 
 func main() {
-	envFile := flag.String("env", ".env", "path to the env file")
+	envFile := flag.String("env", ".env", "path to the env file, default is .env")
 	flag.Parse()
 	if err := godotenv.Load(*envFile); err != nil {
 		log.Printf("waring: failed to load env file: %v", err)
